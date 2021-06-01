@@ -1,0 +1,160 @@
+html {
+  min-height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #efefef; /* fallback for old browsers */
+  min-height: 100%;
+  padding-bottom: 5rem;
+  font-family: "Roboto", sans-serif;
+  background-image: url("fondo.jpg");
+}
+
+h1,
+h2 {
+  color: black;
+  padding: 3rem 0;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+label {
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-left: 0px;
+}
+.error {
+  padding: 1rem;
+  border: 1px solid red;
+  background-color: rgb(249, 121, 121);
+  color: white;
+}
+#mensaje {
+  width: 50%;
+  border-radius: 5px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+}
+.main {
+  margin-top: 50px;
+  background-color: white;
+  height: 850px;
+}
+@media screen and (min-width: 800px) {
+  .main {
+    margin-top: 50px;
+    background-color: white;
+    height: 800px;
+  }
+}
+
+.main h1 {
+  font-weight: 700;
+}
+.main .buscador {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.buscador input[type="text"] {
+  width: 50%;
+  margin-top: 10px;
+
+  padding: 10px;
+}
+.buscador button {
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.buscador button:hover {
+  background-color: #33c3f0;
+}
+#imagen img {
+  height: 150px;
+}
+
+#interior {
+  display: flex;
+  justify-content: space-between;
+  width: 65%;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+
+  border-radius: 15px;
+
+  color: #ffffff;
+}
+@media screen and (min-width: 960px) {
+  #interior {
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    background-color: rgb(168, 60, 60);
+    border-radius: 15px;
+    color: #ffffff;
+    line-height: 2rem;
+  }
+}
+.total {
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 20px;
+  background-color: rgb(168, 60, 60);
+  border-radius: 15px;
+  color: #ffffff;
+  line-height: 2rem;
+  margin-bottom: 0;
+}
+@media screen and (min-width: 720px) {
+  .total {
+    text-align: center;
+    width: 55%;
+    margin: 0 auto;
+    padding-top: 20px;
+    background-color: rgb(168, 60, 60);
+    border-radius: 15px;
+    color: #ffffff;
+    line-height: 2rem;
+    margin-bottom: 0;
+  }
+}
+
+
+.total h3 {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+#resultado {
+  text-align: center;
+  margin-bottom: 10px;
+}
+#resultado p {
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+footer p{
+  font-size: 2rem;
+  text-align: center;
+  font-family: sans-serif;
+}
